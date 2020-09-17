@@ -1,0 +1,36 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1597993227",
+        "python_version": "3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Games\\Unity\\python-envs\\agent_env\\Scripts\\mlagents-learn training_config.yaml --run-id=Level3HerbAndPred_gamma_85_train",
+        "mlagents_version": "0.17.0.dev0",
+        "mlagents_envs_version": "0.17.0.dev0",
+        "communication_protocol_version": "0.17.0",
+        "tensorflow_version": "2.0.1",
+        "end_time_seconds": "1597993291"
+    },
+    "total": 63.82087610000001,
+    "count": 1,
+    "self": 1.0956694999999996,
+    "children": {
+        "run_training.setup": {
+            "total": 0.18298460000000105,
+            "count": 1,
+            "self": 0.18298460000000105
+        },
+        "TrainerController.start_learning": {
+            "total": 62.542222,
+            "count": 1,
+            "self": 0.027471100000006743,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.514750899999996,
+                    "count": 1,
+                    "self": 62.514750899999996
+                }
+            }
+        }
+    }
+}

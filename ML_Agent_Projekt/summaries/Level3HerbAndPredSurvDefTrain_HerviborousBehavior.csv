@@ -1,0 +1,2 @@
+Steps,Policy/Entropy,Environment/Episode Length,Policy/Extrinsic Value Estimate,Policy/Curiosity Value Estimate,Environment/Cumulative Reward,Policy/Extrinsic Reward,Policy/Curiosity Reward,Is Training
+10000,2.1969993,126.51315789473684,-0.043370698,0.1530025,0.9431449206251847,0.9431449206251847,0.0,1.0
